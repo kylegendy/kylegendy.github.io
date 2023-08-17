@@ -19,7 +19,7 @@
 
     /* resume */
     --skill-width: 100%;
-    --resume-carousel-height: 98vw;
+    --resume-carousel-height: 170vw;
 }
 @media (min-width: 500px) {
     :root {
@@ -32,7 +32,7 @@
         --fs-mult-h5: 1.2;
 
         --skill-width: 45%;
-        --resume-carousel-height: 45vw;
+        --resume-carousel-height: 80vw;
     }
 }
 @media (min-width: 700px) {
@@ -44,6 +44,8 @@
         --gallery-search-width: 40%;
         --piece-image-width: auto;
         --piece-image-height: 80vh;
+
+        --resume-carousel-height: 60vw;
     }
 }
 @media (min-width: 900px) {
